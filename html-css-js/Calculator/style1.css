@@ -1,0 +1,23 @@
+.calc{
+    width:400px;
+    height:600px;
+    background:grey;
+    margin-left:400px;
+}
+#screen{
+    margin-left:36px;
+    height:44px;
+    width:80%;
+    margin-top:38px;
+    pointer-events:none;
+}
+.btn{
+    width:60px;
+    height:45px;
+    margin-left:30px;
+    margin-top:30px;
+    background-color:burlywood;
+}
+.heading{
+    margin-left:480px;
+}

@@ -1,0 +1,196 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* /navbar */
+
+.navbar-nav li a{
+    font-weight: 500;
+}
+
+
+.clothing{
+    color:red;
+}
+/* carousel*/
+.carousel-indicators .dot{
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    color:white;
+}
+.carousel-item{
+    position:relative;
+}
+.carousel-caption{
+    position:absolute;
+    top:30%;
+    left:15%;
+}
+.carousel-text1{
+    font-weight:bold;
+}
+.carousel-text2{
+    font-weight:900px;
+    font-size:60px;
+    word-spacing:1px;;
+}
+/*carousel ends..
+
+/*latest starts*/
+
+.latest-heading{
+    margin-top:100px;
+}
+.line{
+    width:90%;
+    color:lightgrey;
+    height:10px;
+
+}
+
+.latest-products .product-item h6{
+    float:right;
+    margin-top:-30px;
+}
+.product-item{
+    border:1px solid #eee;
+
+}
+.product-item .down-content{
+    padding:20px;
+    position:relative;
+}
+.product-item img{
+    width:100%;
+    overflow:hidden;
+}
+.product-item .down-content ul{
+    margin-left:-30px;
+}
+.product-item .down-content ul li{
+    display:inline-block;
+}
+.product-item .down-content ul li i{
+    color:#f33f3f;
+    
+}
+   
+.product-item .down-content span{
+    position:absolute;
+    right:30px;
+    bottom:30px;
+    font-size: 13px;
+	color: #f33f3f;
+	font-weight:500;
+}
+.product-item .product-item-text{
+    font-size:13px;
+    color:rgb(30, 28, 28);
+}
+/*about section*/
+.about-heading{
+    margin-top:100px;
+    
+}
+.about-section .about-text-1{
+    color: #1a6692;
+}
+.about-section .about-text-2{
+    font-size:14px;
+    padding-top:20px;
+    text-align: justify;
+    font-weight:100px;
+    line-height:25px;
+    color:#71797E;
+}
+
+
+.about-section li{
+    font-size:14px;
+    padding-top:20px;
+    text-align: justify;
+    font-weight:100px;
+    line-height:20px;
+    color:#71797E;
+}
+.button1{
+    background-color:rgb(228, 16, 16);
+    color:white;
+    font-size:15px;
+    border-radius:10px;
+    padding:10px;
+    margin-left:15px;
+
+}
+/* end section*/
+.end-section{
+    padding:20px;
+   
+}
+.end-container{
+    background-color: bisque;
+    padding:20px;
+}
+.end-text-1{
+font-size:18px;
+color:#1a6692;
+}
+.end-text-2{
+font-size:14px;
+
+}
+.button2{
+    background-color:rgb(228, 16, 16);
+    color:white;
+    font-size:15px;
+    border-radius:10px;
+    padding:10px 20px 10px 20px;
+    margin-left:15px; 
+}
+.end{
+    font-size:15px;
+    color:#71797E;
+}
+.collapsenav .nav-item a{
+    color:white;
+}
+
+@media only screen and (max-width:575px){
+.carousel-text1{
+font-size:10px !important;
+}
+
+.carousel-text2{
+    font-size:15px !important;
+}
+
+.bars{
+    color:red;
+    background-color:white;
+    padding:6px;
+}
+.collapsenav{
+    background-color:white;
+    
+}
+.collapsenav .nav-item a{
+color:black;
+}
+.collapsenav .nav-item .red {
+    color:red !important;
+}
+.collapsenav .nav-item{
+    text-align:center;
+}
+}
+.about-section1{
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+

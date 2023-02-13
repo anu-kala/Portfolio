@@ -1,0 +1,236 @@
+*{
+    box-sizing:border-box;
+}
+body
+	{
+	background-color: black;
+    color: #808080;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+	}
+  
+  .navtag {
+    padding: 0 !important;
+    background-color: #202020 !important;
+    
+  }
+  .toggle-icon-color {
+    background-color: #d54ab6;
+    color:white !important;
+    padding:5px 12px 5px 12px !important; 
+    border-radius: 0% !important;
+    margin-right:40px;
+  }
+    .nav-div-container{
+      position:relative;
+      background-color: #101010;
+      padding:2px;
+      top:18px;
+      z-index:1;
+      width: 85% !important;
+      border-left: 7px solid #d54ab6;
+    }
+
+    .logo-text{
+        margin-left:2rem;
+    }
+    .container1 ul li a{
+        color:white;
+    }
+.home{
+    background: url('images/home-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    position:relative;
+}
+.home-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+}
+
+
+
+
+.divider {
+    color: #fff;
+    text-align: center;
+    width:80%;
+    margin: auto;
+  }
+
+  
+  .divider .divider-wrapper {
+    padding: 30px 10px 30px 10px;
+    position: relative;
+    bottom: 40px;
+    transition: all 0.4s ease-in;
+    box-sizing: border-box;
+    width: calc((100% - 10px));
+  }
+
+
+  .divider .divider-wrapper:hover {
+    bottom: 60px;
+    cursor: pointer;
+  }
+  .divider .divider-one {
+    background: #c14000;
+  }
+  .divider .divider-two {
+    background: #009988;
+  }
+  .divider .divider-three {
+    background: #ffa500;
+  }
+  .divider .fa-sharp{
+    
+    border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 90px;
+  height: 90px;
+  line-height: 76px;
+  }
+  .divider .mobile-notch{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  }
+.divider .ring{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    line-height: 76px;
+    }
+
+  .about {
+    width: 80%;
+    margin:auto;
+  }
+  .about-text{
+    padding:30px;
+    background-color: #191919;
+    font-size: 13px !important;
+  }
+  .learn{
+    margin-top:50px;
+  }
+  .learn1{
+    color:white;
+    padding:10px;
+    border:2px solid white;
+  }
+  .portfolio {
+    width: 80%;
+    margin:auto;
+  }
+  .portfolio img {
+    opacity: 0.8;
+  }
+.list{
+  list-style-type: none;
+}
+.email-input{
+  border:2px solid white;
+  padding:5px;
+  color:white;
+  background-color:black;
+}
+.email{
+  color:white;
+  padding:5px;
+  border:2px solid white;
+  background-color:black;
+
+}
+footer .container-fluid {
+  --bs-gutter-x: 0 !important;
+  background-color:rgb(36, 34, 34);
+}
+.footer-container {
+  width:80%;
+  margin:auto;
+
+}
+.footer{
+  
+  padding:20px;
+  margin: 0px !important;
+  width: 100% !important;
+}
+.footer .list li  {
+  margin-left:0px !important;
+  text-decoration: none;
+}
+.icons{
+  
+  list-style-type:none;
+ 
+}
+.text-secondary{
+  background-color: black;
+  margin-top:10px !important;
+  padding-top: 25px !important;
+}
+
+.icons li a{
+text-decoration:none;
+color:#909090;
+font-size:20px;
+width:40px;
+
+padding:10px;
+}
+.icons li{
+  background-color:#303030;
+  display:inline-block;
+  
+ 
+  
+}
+  @media only screen and (max-width:575px){
+    .nav-div-container {
+      width: 95% !important;
+    }
+    .divider {
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .about,.portfolio,footer {
+      width:100%;
+    }
+    .footer-container {
+      width: 100%;
+      padding-left: 2px !important;
+      margin-left: 0px !important;
+    }
+    .footer {
+      padding:0px;
+    }
+    .icons {
+      padding:0px ;
+      padding-top: 25px;
+    }
+    
+.row1{
+  text-align:center;
+}
+.divider-wrapper{
+  margin-top:10px;
+  width: calc((100% - 10px));
+  margin-left:auto;
+  margin-right:auto;
+}
+}
+  

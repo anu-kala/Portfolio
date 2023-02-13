@@ -1,0 +1,167 @@
+.product-info h2{
+    padding:7px;
+    padding-bottom:4px;
+    font-size:22px;
+    color:grey;
+
+}
+.eshopper-heading{
+    color:rgb(24, 24, 14);
+    font-size:22px;
+    padding:7px 0;
+}
+.main-slider{
+    padding-top:20px;
+    padding-bottom:20px;
+
+
+}
+.silder-content{
+    padding-top:100px;
+    padding-left:70px;
+}
+.silder-content h1{
+    font-size:70px;
+
+}
+.silder-content h1 span{
+    color:#ffc107;
+}
+.brands1 a,.cate a{
+    color:grey;
+}
+.top-menu a{
+    color:black;
+    
+}
+.top-menu a.active{
+    color:#ffc107;
+    
+}
+.top-menu a:hover{
+    color:#ffc107;
+}
+.main-menu{
+    background-color:#fff !important;
+    border-bottom:1px solid #eee;
+}
+.footer{
+    background-color:#f0f0e9;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+.footer-links{
+    padding-top:15px;
+    padding-bottom:15px;
+
+}
+.footer-links h2{
+    font-size:22px;
+}
+.footer-links a{
+    padding-left:0;
+    color:#888;
+    font-size:14px;
+}
+.footer-links a:hover{
+    color:#ccc;
+}
+.copyright{
+    border-top:1px solid #888;
+    margin-top:15px;
+    padding-top:15px;
+}
+.new-image{
+    position:absolute;
+  right:0;
+  top:0;
+}
+.product-info{
+    position:relative;
+    margin:10px;
+    width:calc(33.333% - 20px);
+}
+.new-image{
+position:absolute;
+  right:0;
+  top:0;
+}
+.slider-image{
+    position:relative;
+}
+.pricing{
+    position:absolute;
+    left:20%;
+    bottom:10%;
+}
+.map{
+    position:relative;
+}
+.maptext{
+    position:absolute;
+    top:10px;
+    left:0px;
+}
+.fs{
+    font-size:15px;
+}
+h1 {
+    font-size: 4rem;
+}
+.line::before,
+.line::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid grey;
+    width: 12rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+.line1::before,
+.line1::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid grey;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-0.75rem);
+}
+.line1{
+    font-size:18px;
+}
+
+
+@media only screen and (max-width:575px){
+.Featured-Products-4{
+    display:none;
+}
+.logo-image{
+    text-align:center;
+    padding-bottom:10px;
+
+}
+.top-menu{
+    justify-content:center !important;
+}
+.copyright,.design-by{
+    text-align:center !important;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.copyright{
+    padding-top:25px;
+
+}
+.footer-links{
+    padding-left:14%;
+}
+.product-info{
+    width:calc(50% - 20px);
+}
+.line::before,
+.line::after{
+    display:none;
+}
+}

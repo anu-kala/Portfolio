@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+
+.nav-item span{
+   
+    font-size:15px !important;
+}
+.header{
+    position:sticky;
+    top:0;
+    z-index:2;
+    
+}    
+
+.banner{ 
+justify-content: center;
+background-image: url("images/banner.jpg");
+background-position:100% 100%;
+background-repeat: no-repeat;
+background-size: cover;
+border-top: 0;
+min-height: 30rem;
+position: relative;
+text-align: center;
+width: 100%;
+overflow: hidden;
+
+}
+.outer{
+    width:100%;
+    min-height: 35rem;
+    background-image:linear-gradient(to left,rgba(22, 20, 20, 0.9),rgba(209, 34, 43, 0.6));
+    z-index:1;
+    position:relative;
+    
+
+}
+.banner-text1{
+ padding-top:150px;
+}
+
+.canvaslist .item{
+    padding:20px;
+
+}
+
+.section1{
+    background: url('images/bg.jpg')no-repeat fixed;
+    
+    background-size: cover;
+    /* background-color: grey; */
+     position: relative;
+    min-height:60rem;;
+    background-position: center;
+
+
+}
+.whitebox{
+    min-height:65rem;
+    width:100%;
+    background-color:rgba(252, 252, 252, 0.9);
+    position:absolute;
+    top:0;
+    left:0;
+    background-position: center;
+}
+
+   
+
+.text{
+    margin-top:40px;
+}
+.colwidth{
+width:calc(33.33% - 20px);
+background-color: white;
+color:black;
+height:20rem;
+text-align: center;
+margin-left:10px;
+margin-right:10px;
+
+}
+.pic1{
+    font-size: 5rem;
+    color: #ce1b28;
+    
+}
+.copy-icon {
+    color:#ce1b28;
+    
+}
+
+.section2{
+    background: url('images/cta01.jpg') ;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:25% 100%;
+    /* background-color: grey; */
+   min-height:15rem;;
+   position:relative;
+    color:white;
+
+}
+.section3{
+    background: url('images/bg.jpg')no-repeat fixed left top;
+    
+    background-size:cover;
+    /* background-color: grey; */
+    position: relative;
+    
+   min-height:30rem;
+    background-position: center;
+    
+   
+}
+.padding2{
+    padding:25px;
+}
+.whitebox2{
+    min-height:30rem;
+    width:100%;
+    background-color:rgba(252, 252, 252, 0.9);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.colwidth2{
+    width:calc(33.33% - 20px);
+    background-color: white;
+    color:black;
+    border-radius:10px;
+ }
+.author{
+    display:flex;
+}
+blockquote{
+
+border-left: solid 0.5rem;
+border-left-color: currentcolor;
+font-style: italic;
+margin: 0 0 1rem 0rem;
+padding: 1rem 0 1rem 1rem;
+}
+.padding{
+    padding:15px;
+}
+.content{
+    height:220px;
+    padding:20px;
+    color:rgb(10, 9, 9,0.7);
+}
+.section4{
+   min-height:40rem;
+    background-color: black;
+}
+ul li{
+    text-decoration:none;
+    list-style-type: none;
+}
+.box{
+    width:calc(33.33% - 20px);
+    box-sizing:border-box;
+ min-height:150px;
+    margin-left:10px;
+}
+.line{
+    width:90%;
+    height:2px;
+    background-color: blanchedalmond;
+    margin-top:150px;
+    margin-left:5%;
+}
+.button{
+position:absolute;
+  right:10%;
+  top:5%;
+}
+.icon i{
+    text-decoration:none;
+    color:white;
+}
+.canvasoff{
+    height:450px !important;
+    color:white;
+    background-color:rgba(22, 20, 20, 0.8);
+    margin-top:20px;
+}
+.canvaslist li .item{
+    color: white !important;;
+}
+@media only screen and (max-width:576px){
+.row{
+    overflow:hidden;
+}
+.banner-section{
+    min-height:4rem !important;
+}
+.banner{
+    width:100%;
+    min-height:4rem !important;
+    background-position:20% 20%;
+   
+}
+.col-12{
+    width:calc(100% - 20px); 
+    margin-top:5px;
+    text-align: center;
+    margin-left:auto;
+margin-right:auto;
+}
+.b1{
+    width:calc(100% - 20px); 
+    margin-top:5px;
+    text-align:left !important;
+    margin-left:auto;
+margin-right:auto;
+}
+  .section1{
+min-height:140rem;
+  }  
+  .text{
+    font-size:23px;
+
+  }
+  .text-1{
+    font-size:16px;
+  }
+  .whitebox{
+min-height:140rem;
+  }
+  .colwidth{
+ height:20rem;
+ margin-left:auto;
+ margin-right:auto;
+ 
+  }
+.pic1{
+    font-size:4rem;
+}
+    
+.section2{
+    height:17rem;
+    background-size: cover;
+    background-position:50% 100%;
+    font-size:15px;
+}
+.section3{
+ min-height:70rem;
+  
+}
+.whitebox2{
+ min-height:70rem;
+}
+.section4{
+    padding-top:7rem;
+    
+}
+
+.padding{
+    font-size:1rem;
+    padding:1rem;
+}
+.padding2{
+    padding:15px ;
+}
+.margin2{
+    margin-top:2px;
+}
+.off{
+    margin-left:5%;
+}
+.box{
+    width:calc(100% - 20px);  
+    margin-left:auto;
+    margin-right:auto; 
+}
+}

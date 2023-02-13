@@ -1,0 +1,377 @@
+/** General start**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+}
+/** General end**/
+
+
+.portfolio-link {
+    position: fixed;
+    top: 100px;
+    left: -65px;
+    width:75px;
+    height:50px;
+    background-color:#42275a;
+    color: white;
+    font-size: 30px;
+}
+.portfolio-link:hover {
+    left: 0px;
+    background-color:#734b6d;
+}
+.portfolio-link a{
+    text-decoration:none;
+    color:slategray;
+}
+
+
+/** Navbar start  **/
+.navouterdiv {
+    width:100vW;
+    background: linear-gradient(#42275a, #734b6d);
+    
+}
+
+.navtag {
+    height: 75px !important;
+
+}
+
+.navtag div .navlogo {
+    font-weight: 1000;
+    font-size: 30px !important;
+    color: white !important;
+}
+
+.navtag div a {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.navtag .navinnerdiv div ul li {
+    padding: 10px !important;
+}
+
+.navtag .navinnerdiv div ul li a:hover {
+    color: rgba(220, 244, 87, 0.858) !important;
+    overflow-x: hidden;
+}
+
+/** Navbar end  **/
+
+
+
+/** About Me start  **/
+.aboutmediv {
+    min-height: 35rem !important;
+    width:100vW;
+    background-color: #e5e5e5;
+    overflow-x: hidden !important;
+}
+.aboutmediv .aboutmecaption{
+    color: #42275a;
+    overflow-x: hidden !important;
+}
+.imgdiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    animation: fadein 3s;
+    animation-fill-mode: forwards;
+}
+.aboutmesection .container {
+    height: 100%;
+    width:95%;
+    border-radius: 10px;
+    border: 1px solid #42275a;
+    box-shadow: 5px 5px 5px #42275a;
+    color: #734b6d;
+    animation: fadein 3s;
+    animation-fill-mode: forwards;
+}
+.aboutmesection p {
+    font-size: 17px !important;
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/** About Me end  **/
+
+
+
+/** SKILLS start  **/
+.skillsdiv {
+    background: linear-gradient(#42275a, #734b6d);
+    color: white !important;
+    min-height: 35rem;
+}
+/**SKILLS TAB HEADING START**/
+.skillsdiv .row .col-12 ul{
+    border: none;
+}
+.skillsdiv .row .col-12 ul li {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+.skillsdiv .row .col-12 ul li button {
+    color: white;
+    font-weight: 1000;
+    background: transparent; 
+}
+.skillsdiv .row .col-12 ul li button:hover {
+    color: rgba(220, 244, 87, 0.858);
+    border: none !important;
+}
+.skillsdiv .row .col-12 ul li button:not(:hover) {
+    color: white;
+    border: none ;
+}
+.skillsdiv .row .col-12 ul li button:active {
+    color: rgba(220, 244, 87, 0.858);
+    border: none !important;
+}
+.skillsdiv .row .col-12 ul li .active {
+    color: rgba(220, 244, 87, 0.858);
+    border: none !important;
+}
+/**Disabled tab design**/
+.skillsdiv .row .col-12 ul .disabledli{
+    width: 0% !important;
+    height: 0% !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding: 0px !important;
+    border: 0px !important;
+    border-radius: 0px! important;
+    margin: 0px !important;
+    box-shadow: none !important;
+}
+.skillsdiv .row .col-12 ul li .disabledbtn {
+    color: none;
+    background: transparent; 
+}
+/**Disabled tab design**/
+.skillsdiv .row .col-12 ul li:focus-within {
+    color: rgba(220, 244, 87, 0.858);
+    box-shadow: 2px 2px 2px rgba(220, 244, 87, 0.858);
+    font-size: 18px;
+}
+/**SKILLS TAB HEADING END**/
+
+/**SKILLS TAB CONTENT START**/
+.skillsdiv .row .skillstabcontent {
+    margin:22px auto 20px auto; 
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 73%;
+    
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .progressdiv {
+    margin: 1.5rem auto 0px auto;
+    width:60%;
+}
+
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .progressdiv .progress .progress-bar{
+    font-weight: 1000;
+    color: white;
+    background-color: slategray  !important;
+    border-right: 1px solid #734b6d;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    animation: progressanim 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes progressanim {
+    0% {
+        width:0%;
+        color: slategray;
+    }
+    25% {
+        width:20%;
+        color: slategray;
+    }
+    50% {
+        width:40%;
+        color: slategray;
+    }
+    75% {
+        width:60%;
+        color: slategray;
+    }
+    100% {
+        width:var(--p);
+        color: white;
+    }
+}
+
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row {
+    margin: 0px auto 10px auto;
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: calc((33.33% - 2rem));
+    margin: 2rem 1rem 1rem 1rem;
+    height: 275px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+    padding: 0px !important;
+    animation: var(--a);
+    animation-fill-mode: unset;
+}
+@keyframes fadein2 {
+    0% {
+        width:0;
+        height:0;
+    }
+    100% {
+        width:calc((33.33% - 2rem));
+        height: 275px;
+    }
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box .siteimg{
+    padding: 0px !important;
+    margin: 0px !important;
+    width:100%;
+    height: 60%;
+    border: 0px;
+    border-radius: 10px;
+
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box .sitename{
+    color: white;
+    height:22%;
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box .sitebtnp{
+    width: 100%;
+    height:10%;
+    background: transparent;
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box .sitebtnp .sitebtna {
+    text-decoration: none;
+}
+.skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box .sitebtnp .sitebtna .sitebtn{
+    all:unset;    
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    background-color: slategray;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+/**SKILLS TAB CONTENT START**/
+
+/** SKILLS end  **/
+
+
+
+
+
+/** FOOTER start  **/
+footer{
+    display:flex;
+    width:100%;
+    background-color: #e5e5e5;
+    min-height: 75px;
+}
+footer .footerdiv{
+
+    margin:auto;
+}
+footer .footerdiv .row {
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+footer .footerdiv .row .footercontent {
+    font-size: large;
+    font-weight: 1000;
+    color: slategray;
+}
+footer .footerdiv .row .footerlink {
+    font-size: 30px;
+    font-weight: 1000;
+    color: slategray;
+}
+footer .footerdiv .row .footerlink a{
+    text-decoration: none;
+    color: slategray;
+}
+/** FOOTER end  **/
+
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    /**ABOUT ME START**/
+    .aboutmesection {
+        margin-bottom: 20px;
+    }
+    /**ABOUT ME END**/
+      /**Collapse   start**/
+       .navcollapse{
+        background-color: #734b6d;
+        z-index:3;
+       }
+
+       /**Collapse  end**/
+
+
+    /**SKILLS TAB CONTENT START**/
+    .skillsdiv .row .skillstabcontent .tab-content .tab-pane .row {
+        width: 100%;
+        text-align:center;
+        margin: 0px auto 10px auto;
+        height: 100%;
+        
+    }
+    .skillsdiv .row .skillstabcontent .tab-content .tab-pane .row .box {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: calc((100% - 4rem));
+        margin: 2rem auto 1rem auto;
+        min-height: 275px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px white;
+        padding: 0px !important;
+        animation: var(--a);
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadein2 {
+        0% {
+            width:0;
+            height:0;
+        }
+        100% {
+            width:calc((100% - 4rem));
+            height: 275px;
+        }
+    }
+    /**SKILLS TAB CONTENT END**/
+
+}
